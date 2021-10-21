@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -8,11 +9,9 @@ body{
     background-color: #0C0B0E;
     color: white;
 }
-
 header{
     border: solid red 1px;
 }
-
 #entete{
     border: solid blue 3px;
     display: flex;
@@ -22,11 +21,9 @@ header{
     display: flex;
     align-items: baseline;
 }
-
 #entete-text{
-    padding-left: 60px;
+    padding: 80px 0px 0px 60px;
 }
-
 #alba{
     margin: 20px 0px 40px 0px;
 }
@@ -49,3 +46,22 @@ h4, h5{
     font-size: 48px;
 }
 
+#Apropos{
+    border: solid rgb(17, 223, 223) 3px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#apropos-text{
+    border: blanchedalmond solid 2px;
+    width: 20%;
+    align-items: center;
+}
+
+#article{
+    width: 90%;
+    text-align: justify;
+    /* align-items: center; */
+
+}
