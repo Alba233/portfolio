@@ -8,46 +8,61 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Prata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <title>Alba Llopez</title>
 </head>
-<body>
-    <header>
-        <nav class="close">
-            <a href="#Apropos">_ A propos</a>
-            <a href="#Projet">_ Projet</a>
-            <a href="#Contact">_ Contact</a>
-        </nav>
-        <div class="burger burger-close">
-            <span class="burger-span burger-span-close"></span>
-            <span class="burger-span burger-span-close"></span>
-            <span class="burger-span burger-span-close"></span>
-        </div>
-    </header>
-    
-    <div id="entete">
-        <img src="./assets/portrait.png" alt="visage">
-        <div id="entete-text">
-            <div id="alba">       
-                <h1>Alba</h1>
-                <h1>Llopez</h1>
-            </div>
-            <hr>
-            <div class="soustitre">
-                <h3>UX.UI</h3> 
-                <h4>designer</h4>
-            </div>
-            <div class="soustitre">
-                <h3>Creativ</h3>
-                <h4>developer</h4>
-            </div>
-        </div>
-        
-    </div>
 
+<body>
+    <section id="loader-container">
+        <img id="loader" src="./assets/Logo_blanc_anim_loop.gif" alt="">
+    </section>
+
+    <div id="container-grid">
+        <header>
+            <nav class="menu-nav">
+                <a class="items"href="#Apropos">_ A propos</a>
+                <a class="items" href="#Projet">_ Projet</a>
+                <a class="items"href="#Contact">_ Contact</a>
+            </nav>
+            <div class="burger burger-close">
+                <span class="burger-span burger-span-close"></span>
+                <span class="burger-span burger-span-close"></span>
+                <span class="burger-span burger-span-close"></span>
+            </div>
+        </header>
+
+         <section id="social-media">
+        <a href="https://github.com/Alba233/">
+           <img  class="items" src="./assets/git.png" alt="icone de github"></a>
+        
+        <a href="https://www.linkedin.com/in/alba-llopez-1712a0114/">
+            <img  class="items" src="./assets/linkedin.png" alt="icone de linkedin"></a>
+        </section>  
+
+        <section id="welcome-container">
+            <div id="entete">
+                <img src="./assets/portrait.png" alt="visage">
+                <div id="entete-text">
+                    <div id="alba">       
+                        <h1 class="red">Alba</h1>
+                        <h1>Llopez</h1>
+                    </div>
+                    <hr>
+                    <div class="soustitre">
+                        <h3>UX.UI</h3> 
+                        <h4>designer</h4>
+                    </div>
+                    <div class="soustitre">
+                        <h3>Creativ</h3>
+                        <h4>developer</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
     <div id="Apropos">
         <div id="apropos-text">
-            <h5>A propos de moi</h5>
-            <p id="article">
+            <h5 class="red">A propos de moi</h5>
+            <p id="bio">
             Fraîchement débarquée à Paris en 2019, la ville nourrit ma soif de culture
             et de nouvelles technologie. L’année 2020 synonyme d’un nouveau départ personnel 
             et professionnel. Je suis une première formation en févrirer 2021 à l’école Simplon, 
@@ -57,38 +72,51 @@
             Je cherche un stage pour novembre 2021 au poste d’UI UX designer.
             </p>
         </div>
-        
     </div>
 
-    <div id="Projet">
-        <h2>Projet</h2>
-        <div id="cyber">
-            <h2>Cyberfeminism</h2>
-            <p>Femmes et numérique : je code donc je suis !</p>
-            <img src="./assets/Arrow1.png" alt="">
-            <img src="./assets/femalecyborg.png" alt="">
-        </div>
-        <div id="cyber">
-            <h2>Billeterie Le Louvre</h2>
-            <p>RGAA
-                Redesign de la
-                billeterie du Louvre</p>
-            <img src="./assets/Arrow2.png" alt="">
-            <img src="./assets/louvre.png" alt="">
-        </div>
+    <h2 id="titre">Projets</h2>
+
+    <div class="cyber-container">
+        <h2 id="uno">Cyber<br> <span class="blanc">femi</span>nisme</h2>
+        <img class="picture" src="./assets/femalecyborg.png" alt="">
     </div>
 
-    <div id="Contact">
-        <h5>Vous voulez travailler avec moi?</h5>
-        <a href="mailto:llopezalbamaeva@gmail.com">Discutons-en</a>
-        <aside class="social"> 
-            <img src="./assets/gmail.png" alt="icone de messagerie g-mail">
-            <img src="./assets/git.png" alt="icone de github">
-            <img src="./assets/linkedin.png" alt="icone de linkedin">
-            <img src="./assets/insta.png" alt="icone de instagram">
-        </aside>    
-        <p>© Alba Llopez</p>
+    <div class="small-cyber-container"> 
+        <p>Femmes et numérique : je code donc je suis !</p>
+        <img class="arrow" src="./assets/Arrow1.png" alt="">
+    </div>   
+
+    <div class="louvre-container">
+        <img class="picture" src="./assets/louvre.png" alt="">
+        <h2 id="duo">Billeterie <span class="blanc">Le Lo</span>uvre</h2>
+    </div>
+
+    <div class="small-louvre-container">
+        <p>RGAA Redesign de la
+            billeterie du Louvre</p>
+        <img class="arrow" src="./assets/Arrow2.png" alt="">
+    </div>
+
+    <div id="contact">
+
+        <div id="container-h">
+            <h5>Vous voulez travailler avec moi?</h5>
+        </div>
+    
+        <div id="container-logos">
+            <a href="mailto:llopezalbamaeva@gmail.com">
+                <img src="/assets/gmail.png" alt=""></a>
+                
+            <a href="https://github.com/Alba233/">
+               <img  src="./assets/git.png" alt="icone de github"></a>
+            
+            <a href="https://www.linkedin.com/in/alba-llopez-1712a0114/">
+                <img  src="./assets/linkedin.png" alt="icone de linkedin"></a>
+        </div>
+
     </div>
     
+
+    <footer>© Alba Llopez - Made with ❤️ - 2022</footer>
 </body>
 </html>
