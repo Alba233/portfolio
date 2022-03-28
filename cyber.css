@@ -4,7 +4,7 @@
 }
 
 .container{
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -15,14 +15,14 @@
     font-size: 27em;
     color: transparent;
     -webkit-text-stroke: 1px white;
-    transform: translate(-248px, 337px);
+    transform: translate(-308px, 398px);
 }
 
 .small-container{
-    border: 1px solid rgb(205, 125, 50);
+    /* border: 1px solid rgb(205, 125, 50); */
     width: 250px;
     margin: auto;
-    transform: translate(344px, -495px);
+    transform: translate(446px, -759px);
 }
 .noir{
     font-size: 20px;
