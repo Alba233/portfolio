@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Prata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navigation-bar.css">
     <title>Alba Llopez</title>
 </head>
 
@@ -18,15 +19,15 @@
 
     <div id="container-grid">
         <header>
-            <nav class="menu-nav">
+            <nav class="nav-list">
                 <a class="items"href="#apropos">_ A propos</a>
                 <a class="items" href="#projets">_ Projets</a>
                 <a class="items"href="#contact">_ Contact</a>
             </nav>
-            <div class="burger burger-close">
-                <span class="burger-span burger-span-close"></span>
-                <span class="burger-span burger-span-close"></span>
-                <span class="burger-span burger-span-close"></span>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
         </header>
 
@@ -63,13 +64,8 @@
         <div id="apropos-text">
             <h5 class="red">A propos de moi</h5>
             <p id="bio">
-            Fraîchement débarquée à Paris en 2019, la ville nourrit ma soif de culture
-            et de nouvelles technologie. L’année 2020 synonyme d’un nouveau départ personnel 
-            et professionnel. Je suis une première formation en févrirer 2021 à l’école Simplon, 
-            où je découvre techniques et la culture du numérique, et je met les mains dans le code. 
-            Je décide de poursuivre dans le développement web par une formation plus longue à l’école Matrice.
-            Je suis pressée d’entrer dans la vie active avec un regard nouveau.
-            Je cherche un poste d’UI UX designer.
+                Je suis une développeuse web et designeuse française basée à Paris.
+                Je vous invite à découvrir mon travail et mon univers.
             </p>
         </div>
     </div>
@@ -100,10 +96,10 @@
            <img class="arrow" src="./assets/Arrow2.png" alt=""> 
         </a>
     </div>
-
+    
     <div class="singuliere-container">
         <h2 id="tre"><span class="blanc">Singu</span>lière</h2>
-        <img src="./assets/singuliere.png" alt="">
+        <img class="picture" src="./assets/singuliere.png" alt="">
     </div>
 
     <div class="small-sing-container">
@@ -133,7 +129,10 @@
 
     </div>
     
+    <script src="app.js"></script>
 
     <footer>© Alba Llopez - Made with ❤️ - 2022</footer>
+
+
 </body>
 </html>

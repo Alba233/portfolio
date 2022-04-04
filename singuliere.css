@@ -59,3 +59,17 @@ h3{
     margin: auto;
     transform: translate(70px,-250px);
 }
+
+#button-grey{
+    transform: translate(255px, 540px);
+    padding: 15px;
+    font-size: 20px;    
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+#button-grey:hover{
+    background-color: white;
+    color: black;
+}

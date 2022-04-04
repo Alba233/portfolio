@@ -34,7 +34,7 @@ header{
     grid-area: 1 / 5 / 4 / 5;
 }
 
-.menu-nav{
+.nav-list{
     height: 140px;
     width: 140px;
     display: flex;
@@ -51,9 +51,7 @@ header{
 }
 
 .items:hover{    
-    letter-spacing: 0.9px;
-    text-decoration: underline;
-
+    letter-spacing: 1px;
 }
 #social-media{
     display: flex;
@@ -109,8 +107,9 @@ h3{
     padding-right: 5px;
 }
 h4, h5{
-    font-size: 48px;
+    font-size: clamp(30px,8vw,48px);
 }
+
 .menu{
     display: flex;
     flex-direction: column;
@@ -124,6 +123,9 @@ h4, h5{
 #apropos-text{
     width: 20%;
     align-items: center;
+}
+#projet{
+    font-size: clamp(28px,8vw,98px);
 }
 
 #bio{
@@ -259,13 +261,63 @@ footer{
     padding: 60px;
 }
 
+.back{
+    margin-left: 20px;
+}
+
+.back:hover{    
+    letter-spacing: 1px;
+}
 
 
-@media screen and (max-width:999px) {
-    .container{
+@media (max-width: 768px){
+    #apropos{
         flex-direction: column;
+        width: 100%;
+    }
+    #apropos-text{
+        width: 100%;
     }
     h2{
         transform: translateX(0);
+    }
+    .cyber-container, .louvre-container, .singuliere-container{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    #mon-portrait{
+        height: 300px;
+    }
+    #bio{
+        width: 100%;
+        text-align: justify;
+    }
+    #uno, #duo, #tre{
+        transform: translateX(0);
+    }
+
+    .small-cyber-container, .small-louvre-container, .small-sing-container{
+        transform: translateX(0);
+        width: 100%;
+        
+    }
+    .arrow{
+        display: none;
+    }
+
+    .picture{
+        width: 300px;
+    }
+    #contact{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #container-h{
+        width: 100%;
+        margin-left: 10px;
+    }
+    #container-logos{
+        margin: 0;
     }
 }
