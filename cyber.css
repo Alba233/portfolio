@@ -1,30 +1,18 @@
-#first-container{
-    width: 1200px;
-    margin-left: 40px;
-}
-
-.container{
+/* .container{
     display: flex;
-    /* border: solid 2px yellow; */
     flex-direction: column;
     width: min(400px, 90%);
     align-items: center;
     margin: auto;
-}
-.numbers{
-    font-size: 18em;
-    color: transparent;
-    -webkit-text-stroke: 1px white;
-}
+} */
 .one{
     transform: translate(-308px, 398px);
 
 }
 .small-container-re{
-    /* border: solid 2px yellow; */
     width: 250px;
     margin: auto;
-    transform: translate(446px, -759px);
+    transform: translate(446px, -865px);
 }
 .txt{
     font-size: 20px;
@@ -39,18 +27,16 @@ h3{
     width: 900px;
 }
 .two{
-    transform: translate(320px, 150px);
+    transform: translate(403px, 110px);
 }
 
 .small-container-ma{
-    /* border: solid 2px yellow; */
     width: 250px;
     margin: auto;
     transform: translate(-420px, -900px);
 }
 
 .small-container-pro{
-    /* border: solid 2px yellow;   */
     width: 250px;
     margin: auto;
     transform: translate(220px, -99px);

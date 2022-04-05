@@ -241,13 +241,11 @@ a:hover{
 }
 
 #container-h{
-    /* border: 1px solid rgb(255, 255, 255); */
     width: 30%;
     margin-left: 60px;
 }
 #container-logos{   
     justify-content: space-between;
-    /* border: 1px solid rgb(255, 255, 255); */
     display: flex;
     align-items: center;
     width: 300px;
@@ -269,7 +267,30 @@ footer{
     letter-spacing: 1px;
 }
 
+.container{
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+    width: min(400px, 90%);
+    align-items: center;
+    margin: auto;
+}
 
+.numbers{
+    font-size: 23em;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+.numbers:hover{
+    -webkit-text-stroke: 1px rgba(231, 67, 54, 1);
+    color: rgba(231, 67, 54, 1);
+}
+
+.first-container{
+    width: 1200px;
+    margin: 40px 0 0 40px;
+}
 @media (max-width: 768px){
     #apropos{
         flex-direction: column;

@@ -1,21 +1,17 @@
-.container{
+/* .container{
     display: flex;
     flex-direction: column;
     width: min(400px, 90%);
     align-items: center;
     margin: auto;
-}
+} */
 
-#first-container{
+.first-container{
+    border: 1px solid white;
     width: 1200px;
-    margin-left: 40px;
+    margin: 40px 0 0 40px;
 }
 
-.numbers{
-    font-size: 18em;
-    color: transparent;
-    -webkit-text-stroke: 1px white;
-}
 .one{
     transform: translate(-370px, 420px);
 

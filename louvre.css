@@ -1,16 +1,14 @@
-.container{
+/* .container{
     display: flex;
     flex-direction: column;
     width: min(400px, 90%);
     align-items: center;
     margin: auto;
+} */
+#actu{
+    margin-top: 15px;
 }
 
-.numbers{
-    font-size: 18em;
-    color: transparent;
-    -webkit-text-stroke: 1px white;
-}
 .one{
     transform: translate(-434px, 420px);
 
@@ -28,7 +26,7 @@
 }
 #logo{
     width: 55%;
-    margin-left: 10px;
+    margin: 30px 10px;
 }
 #billeterie{
     width: 700px;
