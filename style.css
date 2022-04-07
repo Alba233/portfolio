@@ -268,7 +268,6 @@ footer{
 }
 
 .container{
-    border: 2px solid yellow;
     display: flex;
     flex-direction: column;
     width: min(400px, 90%);
