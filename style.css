@@ -1,4 +1,12 @@
 
+@font-face {
+    font-family: 'Remah.Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(./assets/Remah.Pro/RemahPro-Regular.otf);
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -17,11 +25,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(231, 67, 54, 1);
+    background-color: #714FFC;
 }
 #loader{
     width: 90px;
-}   
+}
+
+.horizontal-scroll{
+    overflow-x: scroll;
+}
 
 #container-grid{
     display: grid;
@@ -88,15 +100,15 @@ header{
     margin: 20px 0px 40px 0px;
 }
 h1,h2, h5{
-    font-family: 'Prata', serif;
+    font-family: 'Remah.Pro', serif;
 } 
 h1{
     font-size: clamp(58px,8vw,160px);
     line-height: 140px;
     letter-spacing: 2px;
 }
-.red{
-    color: rgba(231, 67, 54, 1);
+.purple{
+    color: #714FFC;
 }
 
 /* A PROPOS */
@@ -129,8 +141,8 @@ h4, h5{
 }
 
 #bio{
-    width: 90%;
-    text-align: justify;
+    width: 100%;
+    text-align: left;
 }
 
 #mycontainer{
@@ -164,7 +176,7 @@ h2{
 /* CYBERFEMINISME */
 #uno{
     transform: translate(215px, -197px);
-    color: rgba(231, 67, 54, 1);
+    color:  #714FFC;
 }
 
 .cyber-container{ 
@@ -175,7 +187,7 @@ h2{
     margin: 0px 20px;
 }
 .small-cyber-container{
-    width: 10%;
+    width: 10em;
     transform: translate(220px, -122px);        
 }  
 
@@ -183,7 +195,7 @@ h2{
 
 #duo{
     transform: translate(-227px, -220px);
-    color: rgba(231, 67, 54, 1);
+    color:  #714FFC;
 }
 
 .louvre-container{ 
@@ -195,7 +207,7 @@ h2{
     margin: auto;
 }
 .small-louvre-container{
-    width: 7%;
+    width: 10em;
     transform: translate(830px, -148px);
 }
 
@@ -203,7 +215,7 @@ h2{
 
 #tre{
     transform: translate(180px, -171px);
-    color: rgba(231, 67, 54, 1);
+    color:  #714FFC;
 }
 
 .singuliere-container{ 
@@ -215,7 +227,7 @@ h2{
 }
 
 .small-sing-container{
-    width: 7%;
+    width: 10em;
     transform: translate(205px, -129px);       
 }  
 
@@ -319,7 +331,7 @@ footer{
 
     .small-cyber-container, .small-louvre-container, .small-sing-container{
         transform: translateX(0);
-        width: 100%;
+        width: 5em;
         
     }
     .arrow{

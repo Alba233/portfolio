@@ -5,7 +5,9 @@
     align-items: center;
     margin: auto;
 } */
-.one{
+
+
+/* .one{
     transform: translate(-308px, 398px);
 
 }
@@ -13,7 +15,7 @@
     width: 250px;
     margin: auto;
     transform: translate(446px, -865px);
-}
+} */
 .txt{
     font-size: 20px;
     color: whitesmoke;
@@ -30,7 +32,7 @@ h3{
     transform: translate(403px, 110px);
 }
 
-.small-container-ma{
+/* .small-container-ma{
     width: 250px;
     margin: auto;
     transform: translate(-420px, -900px);
@@ -40,7 +42,7 @@ h3{
     width: 250px;
     margin: auto;
     transform: translate(220px, -99px);
-}
+} */
 
 .three{
     transform: translate(-394px, 239px);
