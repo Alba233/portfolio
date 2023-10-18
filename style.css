@@ -131,7 +131,13 @@ h4, h5{
     flex-direction: column;
     width: auto;
 }
-#apropos{
+.empty{
+    border: white, 1px, solid;
+    display: flex;
+    height: 20px;
+    width: 20px;
+}
+#apropos-container{
     display: flex;  
     justify-content: center;
 }
@@ -140,12 +146,19 @@ h4, h5{
     font-size: 20px;
     line-height: 120%;
 }
-
+#quote{
+    font-size: 21px;
+    font-weight: bolder;
+}
 #apropos-text{
     width: 55%;
     padding: 40px;
     align-items: center;
 }
+#apropos{
+    padding-bottom: 50px;
+}
+
 .sections{
     font-size: clamp(28px,8vw,98px);
     text-align: center;
@@ -193,7 +206,7 @@ h2{
 
 }
 .small-cyber-container{
-    width: 10em;
+    width: 13em;
     transform: translate(220px, -122px);        
 }  
 
