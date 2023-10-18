@@ -97,8 +97,11 @@ header{
 #entete-text{
     padding: 80px 0px 0px 60px;
 }
-#alba{
+#names{
+    border: #714FFC, solid, 1px;
     margin: 20px 0px 40px 0px;
+    height: 230px;
+
 }
 h1,h2, h5{
     font-family: 'Remah.Pro', serif;
@@ -130,11 +133,17 @@ h4, h5{
 }
 #apropos{
     display: flex;  
-    margin: 60px 0px 60px 80px;
     justify-content: center;
-}   
+}
+
+.text{  
+    font-size: 20px;
+    line-height: 120%;
+}
+
 #apropos-text{
-    width: 20%;
+    width: 55%;
+    padding: 40px;
     align-items: center;
 }
 .sections{
@@ -143,10 +152,6 @@ h4, h5{
     padding: 90px;
 }
 
-#bio{
-    width: 100%;
-    text-align: left;
-}
 
 #mycontainer{
     width: 90%;
