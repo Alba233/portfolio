@@ -95,12 +95,11 @@ header{
     align-items: baseline;
 }
 #entete-text{
-    padding: 80px 0px 0px 60px;
+    padding: 200px 0px 0px 60px;
 }
 #names{
-    border: #714FFC, solid, 1px;
     margin: 20px 0px 40px 0px;
-    height: 230px;
+    line-height: 540%;
 
 }
 h1,h2, h5{
@@ -108,7 +107,6 @@ h1,h2, h5{
 } 
 h1{
     font-size: clamp(58px,8vw,160px);
-    line-height: 140px;
     letter-spacing: 2px;
 }
 .purple{
@@ -118,7 +116,7 @@ h1{
 /* A PROPOS */
 
 h3{
-    font-size: clamp(28px,8vw,98px);
+    font-size: clamp(28px,8vw,93px);
     font-weight: bold;
     padding-right: 5px;
 }
