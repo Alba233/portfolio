@@ -18,12 +18,7 @@ body{
     background-color: #0C0B0E;
     color: white;
     }
-
-#scroll{
-    padding: 15px;
-    align-self: flex-end;
-    font-size: 12px;
-}
+    
 #loader-container{
     background-color: #714FFC;
     height: 100vh;
@@ -188,71 +183,66 @@ h2{
 .blanc{
     color: white;
 }
+/* GreenPath */
 
-/* CYBERFEMINISME */
-#uno{
-    transform: translate(215px, -197px);
+#gp{
+    transform: translate(515px, 58px);
     color:  #714FFC;
 }
-
-.cyber-container{ 
-    display: flex;
-    justify-content: space-between;
-    width: 800px;
-    align-items: center;
-    margin: 0px 20px;
-
-}
-.small-cyber-container{
-    width: 13em;
-    transform: translate(220px, -122px);        
-}  
-
-/* LE LOUVRE */
-
-#duo{
-    transform: translate(-227px, -220px);
-    color:  #714FFC;
-}
-
-.louvre-container{ 
-    padding-top: 100px;
-    display: flex;
-    justify-content: space-between;
+.greenpath-container{ 
+    border: #714FFC 1px solid ;
     width: min(1000px, 90%);
-    align-items: center;
     margin: auto;
 }
-.small-louvre-container{
+.small-gp-container{
     width: 10em;
-    transform: translate(830px, -148px);
+    transform: translate(930px, -130px);
 }
 
 /* Singulière */
 
-#tre{
-    transform: translate(180px, -171px);
+#mode{
+    transform: translate(162px, -177px);
     color:  #714FFC;
 }
 
 .singuliere-container{ 
+    border: #714FFC 1px solid ;
     display: flex;
     justify-content: space-between;
-    width: min(900px,90%);
-    align-items: center;    
-    margin-left: 20px;  
+    width: min(1000px,90%);
+    align-items: center;
+    height: min(700px);
+    margin: auto;    
 }
 
 .small-sing-container{
     width: 10em;
-    transform: translate(205px, -129px);       
+    transform: translate(390px, -129px);       
 }  
 
+/* CYBERFEMINISME */
+#cyborg{
+    transform: translate(467px, 122px);
+    color:  #714FFC;
+}
 
+.cyber-container{ 
+    border: #714FFC 1px solid ;
+    justify-content: space-between;
+    width: min(1000px, 90%);
+    align-items: center;
+    margin: auto;     
+
+}
+.small-cyber-container{
+    width: 13em;
+    transform: translate(930px, -130px);        
+} 
 /* style guide*/
 
 #container-style{
-    width: auto;
+    width: auto;    
     display: flex;
     flex-direction: column;
     align-items: center;    
