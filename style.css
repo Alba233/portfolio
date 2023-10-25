@@ -18,7 +18,12 @@ body{
     background-color: #0C0B0E;
     color: white;
     }
-    
+
+#scroll{
+    padding: 15px;
+    align-self: flex-end;
+    font-size: 12px;
+}
 #loader-container{
     background-color: #714FFC;
     height: 100vh;
@@ -190,7 +195,6 @@ h2{
     color:  #714FFC;
 }
 .greenpath-container{ 
-    border: #714FFC 1px solid ;
     width: min(1000px, 90%);
     margin: auto;
 }
@@ -207,7 +211,6 @@ h2{
 }
 
 .singuliere-container{ 
-    border: #714FFC 1px solid ;
     display: flex;
     justify-content: space-between;
     width: min(1000px,90%);
@@ -228,7 +231,6 @@ h2{
 }
 
 .cyber-container{ 
-    border: #714FFC 1px solid ;
     justify-content: space-between;
     width: min(1000px, 90%);
     align-items: center;
@@ -247,6 +249,16 @@ h2{
     flex-direction: column;
     align-items: center;    
 }
+
+#design-container{ 
+    display: flex;
+    justify-content: space-between;
+    width: min(1000px, 90%);
+    align-items: center;
+    margin: auto;     
+
+}
+
 /* Contact */
 
 h5{
@@ -264,27 +276,41 @@ a:hover{
 #contact{
     width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-left: 20px;
 }
 
-#container-h{
-    width: 30%;
-    margin-left: 60px;
+.clic{
+    padding: 20px;
+    font-size: 23px;
+    color:white;
+    border: 1px solid white;
+    width: 150px;
+    background-color: transparent;
 }
+#container-h{
+    width: 40%;
+    margin-left: 60px;
+}   
 #container-logos{   
     justify-content: space-between;
     display: flex;
     align-items: center;
-    width: 300px;
-    margin: 90px;
+    width: 200px;
+    margin: 40px;
     padding: 10px;
 }
 
+#logo{
+    height: 65px;
+    padding: 10px;
+}
 footer{
     display: flex;
-    justify-content: flex-end;
-    padding: 60px;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .back{
