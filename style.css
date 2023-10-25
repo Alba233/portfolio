@@ -25,7 +25,6 @@ body{
     font-size: 12px;
 }
 #loader-container{
-    background-color: #714FFC;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -77,6 +76,33 @@ header{
     margin: 5px;
 }
 
+/* SECTION - ACCES PROJET */
+
+#acces-projet-container{
+    background-color: #100f13;
+    display: flex;
+    width: 100%;         
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.block-container{
+    display: flex;  
+    justify-content: space-between;
+    height: 150px;  
+    width: 750px;   
+    align-items: center;
+
+}   
+.block{
+    border: 0.5px solid #a2a2a2;
+    padding: 20px;
+    height: 100px;
+    width: 190px;
+    text-align: center; 
+}
+
 /* SECTION ALBA */
 
 #welcome-container{
@@ -102,12 +128,17 @@ header{
     line-height: 540%;
 
 }
-h1,h2, h5{
+h1,h2,h5{
     font-family: 'Remah.Pro', serif;
 } 
 h1{
     font-size: clamp(58px,8vw,160px);
     letter-spacing: 2px;
+}
+
+h6{
+    font-size: 20px;    
+
 }
 .purple{
     color: #714FFC;
@@ -163,7 +194,6 @@ h4, h5{
     padding: 90px;
 }
 
-
 #mycontainer{
     width: 90%;
 }
@@ -206,7 +236,7 @@ h2{
 /* Singulière */
 
 #mode{
-    transform: translate(162px, -177px);
+    transform: translate(162px, -280px);
     color:  #714FFC;
 }
 
@@ -221,7 +251,7 @@ h2{
 
 .small-sing-container{
     width: 10em;
-    transform: translate(390px, -129px);       
+    transform: translate(390px, -230px);       
 }  
 
 /* CYBERFEMINISME */
