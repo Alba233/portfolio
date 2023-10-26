@@ -1,0 +1,32 @@
+.main-container{
+    border: 1px white solid;
+    padding: 40px;
+    margin: 60px;
+}
+
+.gp-actionplan{
+    width: 700px;
+    padding: 40px;
+}
+
+.flex{
+    display: flex;
+    border: 1px rgb(95, 106, 255) solid;
+    align-items: baseline;
+}
+
+.problematique{
+    font-size: 24px;
+    margin: 10px;
+}
+.container-projet{
+    display: flex;
+    border: 1px rgb(255, 255, 95) solid;
+    padding: 20px;
+}
+
+article{
+    border: 1px rgb(255, 95, 95) solid;
+    padding: 5px;
+    margin: 10px;
+}

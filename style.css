@@ -54,7 +54,7 @@ header{
     flex-direction: column;
 }
 
-.items{
+.items{ 
     font-size: 15px;
     color: white;
     text-decoration: none;
