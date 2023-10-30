@@ -1,17 +1,18 @@
 .main-container{
-    border: 1px white solid;
+
     padding: 40px;
     margin: 60px;
 }
 
-.gp-actionplan{
+.img-actionplan{
+    object-fit: contain;
     width: 700px;
-    padding: 40px;
+    padding: 15px;
 }
 
 .flex{
     display: flex;
-    border: 1px rgb(95, 106, 255) solid;
+
     align-items: baseline;
 }
 
@@ -21,12 +22,36 @@
 }
 .container-projet{
     display: flex;
-    border: 1px rgb(255, 255, 95) solid;
+
     padding: 20px;
 }
 
 article{
-    border: 1px rgb(255, 95, 95) solid;
+
     padding: 5px;
     margin: 10px;
+}
+.img-container{ 
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    width: 700px;
+    margin: 0px 282px;
+}
+
+.final-section{
+    padding-top: 40px;
+    margin: 0px 282px;
+
+}
+
+#center{
+
+    display: flex;
+    margin: 0px 182px;
+}
+
+.maplace-block{
+    width: 50%;
 }
