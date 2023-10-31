@@ -91,17 +91,19 @@ header{
 .block-container{
     display: flex;  
     justify-content: space-between;
-    height: 150px;  
-    width: 750px;   
+    height: 200px;
+    width: 800px; 
     align-items: center;
 
 }   
 .block{
-    border: 0.5px solid #a2a2a2;
-    padding: 20px;
+    display: flex;
+    border: 0.5px solid #ffffff;
+    border-radius: 8px;
     height: 100px;
-    width: 190px;
-    text-align: center; 
+    width: 200px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* SECTION ALBA */

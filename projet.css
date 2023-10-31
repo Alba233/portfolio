@@ -1,33 +1,29 @@
 section{
-    border: 1px white solid;
-    padding: 40px;
+    padding: 50px;
     margin: 60px;
 }
 
-.img-actionplan{
+.img-projet{
     object-fit: contain;
     width: 700px;
     padding: 15px;
 }
-
-.flex{
-    display: flex;
-    border: 1px rgb(95, 106, 255) solid;
-    align-items: baseline;
+.small-img{
+    object-fit: contain;
+    width: 400px;
 }
 
 .problematique{
     font-size: 24px;
-    margin: 10px;
+    font-weight: bold;
+    padding-bottom: 20px;
 }
 .container-projet{
     display: flex;
-    border: 1px rgb(255, 255, 95) solid;
-    padding: 20px;
+    padding: 32px;
 }
 
 article{
-    border: 1px rgb(255, 95, 95) solid;
     padding: 5px;
     margin: 10px;
 }
@@ -35,7 +31,6 @@ article{
     justify-content: center;
     display: flex;
     flex-direction: column;
-    border: 1px rgb(144, 144, 253) solid;
     width: 700px;
     margin: 0px 282px;
 }
@@ -43,11 +38,9 @@ article{
 .final-section{
     padding-top: 40px;
     margin: 0px 282px;
-    border: 1px rgb(0, 184, 122) solid;
 }
 
 #center{
-    border: 1px rgb(200, 235, 255) solid;
     display: flex;
     margin: 0px 182px;
 }
