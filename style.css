@@ -97,13 +97,20 @@ header{
 
 }   
 .block{
-    display: flex;
     border: 0.5px solid #ffffff;
     border-radius: 8px;
     height: 100px;
     width: 200px;
+    display: flex; 
     align-items: center;
     justify-content: center;
+}
+
+.final-step{
+    display: flex;
+    align-items: center;
+    padding: 0px 260px;
+    justify-content: space-between;
 }
 
 /* SECTION ALBA */
@@ -319,6 +326,7 @@ a:hover{
     font-size: 23px;
     color:white;
     border: 1px solid white;
+    border-radius: 8px;
     width: 150px;
     background-color: transparent;
 }

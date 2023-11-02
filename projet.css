@@ -15,7 +15,6 @@ section{
 
 .problematique{
     font-size: 24px;
-    font-weight: bold;
     padding-bottom: 20px;
 }
 .container-projet{
@@ -43,4 +42,11 @@ article{
 #center{
     display: flex;
     margin: 0px 182px;
+}
+.link-website{
+    border: 1px white solid;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+
 }
