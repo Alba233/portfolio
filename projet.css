@@ -57,7 +57,10 @@ article{
     justify-content: center;
 }
 .link-website{
+    font-size: 25px;
     border: 1px white solid;
+    color: white;
+    background-color: transparent;
     border-radius: 8px;
     margin: 10px;
     padding: 10px;
