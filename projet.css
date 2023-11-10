@@ -6,6 +6,9 @@ section{
     padding: 6px;
     margin: 15px;
 }
+.violet{
+    color: #714FFC;
+}
 .sous-titre{
     padding: 6px;
     margin: 15px;
@@ -22,12 +25,14 @@ section{
 
 .problematique{
     font-size: 24px;
+    font-weight: bolder;
     padding: 6px;
     margin: 15px;
+    color: #714FFC;
 }
 .container-projet{
     display: flex;
-    padding: 32px;
+    padding: 16px;
 }
 
 article{
