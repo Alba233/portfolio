@@ -80,7 +80,6 @@ header{
 /* SECTION - ACCES PROJET */
 
 #acces-projet-container{
-    background-color: #100f13;
     display: flex;
     width: 100%;         
     align-items: center;
