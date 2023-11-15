@@ -1,18 +1,52 @@
-section{
-    padding: 50px;
-    margin: 60px;
+body{
+
 }
-.titre{
-    padding: 6px;
-    margin: 15px;
+
+main{
+    margin: 0px 30px;
+    padding: 0px 100px 0px 20px;
+}
+
+section{
+    border: 1px solid rgb(255, 255, 255);
+    text-align:justify;
+    margin: 20px;
+}
+
+header{
+    background-color: rgb(251, 255, 0);
+}
+.nav-list{
+    background-color: rgb(51, 0, 255);
+}
+.welcome-container-p{
+    border: 1px solid rgb(255, 247, 0);
+    width: 100%;
+    grid-area: 1 / 2 / 6 / 4;
+}
+.entete-projet{
+    border: 2px solid rgb(234, 255, 0);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50em;
+}
+.welcome-img{
+    width: min(400px,100%);
+    height: auto;
+    object-fit: contain;
+    
+}
+
+.sous-titre{
+    border: 1px solid rgb(5, 226, 255);
+    text-align: center;
+
 }
 .violet{
     color: #714FFC;
 }
-.sous-titre{
-    padding: 6px;
-    margin: 15px;
-}
+
 .img-projet{
     object-fit: contain;
     width: 700px;
@@ -26,19 +60,25 @@ section{
 .problematique{
     font-size: 24px;
     font-weight: bolder;
-    padding: 6px;
-    margin: 15px;
     color: #714FFC;
-}
-.container-projet{
-    display: flex;
-    padding: 16px;
+    text-align: center;
+
 }
 
+.container-projet{
+    border: 2px solid rgb(47, 58, 255);
+    width: 1300px;
+    display: flex;
+    margin: auto;
+}
+
+
 article{
-    padding: 5px;
-    margin: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    width: 90em;
+    margin: 3em;
     letter-spacing: 1px;
+
 }
 .img-container{ 
     justify-content: center;
