@@ -1,5 +1,5 @@
 
-const navSlide = () => {
+// const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-list');
     const navLinks = document.querySelectorAll('.nav-list li');
@@ -17,7 +17,7 @@ const navSlide = () => {
             }
         });
         //burger animation
-        burger.classList.toggle('toggle');
+       // burger.classList.toggle('toggle');
     });
 }
 
