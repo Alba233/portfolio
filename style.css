@@ -137,8 +137,8 @@ h6{
 
 .block-container{
     display: flex;
-    width: 77em;
-    height: 12em;
+    max-width: 77em;
+    max-height: 12em;
     justify-content: space-between;
     align-items: center;    
 
@@ -349,6 +349,7 @@ a:hover{
 
 .clic:hover{
     border:none;
+    letter-spacing: 0.1em;
     color: #714FFC;
 }
 #container-h{
@@ -417,7 +418,7 @@ footer{
     h2{
         transform: translateX(0);
     }
-    .cyber-container, .louvre-container, .singuliere-container{
+    .cyber-container, .gp-container, .singuliere-container{
         display: flex;
         flex-direction: column;
         width: auto;
@@ -428,9 +429,6 @@ footer{
     #bio{
         width: 100%;
         text-align: justify;
-    }
-    #uno, #duo, #tre{
-        transform: translateX(0);
     }
 
     .small-cyber-container, .small-louvre-container, .small-sing-container{
