@@ -137,7 +137,8 @@ h6{
 
 .block-container{
     display: flex;
-    max-width: 77em;
+    min-width: 60em;
+    max-width: 80em;
     max-height: 12em;
     justify-content: space-between;
     align-items: center;    
