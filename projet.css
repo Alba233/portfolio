@@ -8,7 +8,6 @@ ul{
 }
 
 .square{
-    background-color: #714FFC;
     width: 464px;
     height: 622px;
 }
@@ -38,10 +37,10 @@ section{
     height: auto;
     object-fit: contain;
 }
-.titre:hover{
-    color: #714FFC;
+.square:hover{
+    background-color: #12C2E9;;
+    color: #12C2E9;
 }
- 
 
 .sous-titre{
     text-align: center;
