@@ -52,8 +52,6 @@ header{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin: 5px;
-    padding: 10px;
 }
 
 .items{ 

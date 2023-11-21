@@ -11,6 +11,20 @@ ul{
     width: 464px;
     height: 622px;
 }
+#grp{
+    background-color: #199C69;
+
+}
+
+#sng{
+    background-color: #F5C142;
+
+}
+
+#cyber{
+    background-color: #5ABFE4;
+
+}
 section{
     text-align: justify;
     margin: 20px;   
@@ -36,10 +50,6 @@ section{
     width: min(400px,100%);
     height: auto;
     object-fit: contain;
-}
-.square:hover{
-    background-color: #12C2E9;;
-    color: #12C2E9;
 }
 
 .sous-titre{
