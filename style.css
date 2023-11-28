@@ -29,12 +29,14 @@ body{
     height: 100vh;
     max-width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #714FFC;
 }
 #loader{
     width: 12em;
+    margin: 5em;
 }
 
 .container-grid{
