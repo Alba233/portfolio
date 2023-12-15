@@ -5,7 +5,7 @@
   .navigation .previous {
     position: absolute;
     top: 40%;
-    left: -510px;
+    left: 0%;
     font-size: 15px;
     font-weight: 700px;
     z-index: 5;
@@ -13,7 +13,7 @@
   .navigation .next {
     position: absolute;
     top: 40%;
-    right: -510px;
+    right: 0%;
     font-size: 15px;
     font-weight: 700px;
     z-index: 5;
@@ -38,30 +38,18 @@
     display: none;
   }
   
-  img {
+  .carousel-container-main img {
+    height: 600px;
     vertical-align: middle;
   }
   
   /* carousel container */
-  .container {
-    border: 1px solid red;
-    max-width: 50%;
+  .carousel-container-main {
+    max-width: 80%;
     position: relative;
     margin: auto;
   }
-  
-  .caption-text {
-    width: 50%;
-    color: #fff;
-    font-size: 12px;
-    padding: 15px 10px;
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    background: rgba(0, 0, 0, 0.2);
-    text-align: left;
-    border-radius: 5px;
-  }
+
   
   .dot {
     height: 15px;

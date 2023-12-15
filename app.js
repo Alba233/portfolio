@@ -81,14 +81,29 @@ const carouselSlider = (function () {
       _imageDirection("next");
     });
   
-    const slide = function () {
-      _sliderInitState(_slides, _dots);
-      _activateSlide(_slides, _slideIndex);
-      _slideIndex++;
-      _checkSlideIndexBoundary(_slideIndex, _slides);
-      // Change image every 5 seconds
-      setTimeout(slide, 5000);
-    };
+    let paused = false
+   
+    _slides.forEach((slide) => {
+    slide.addEventListener("mouseover", function() {
+        paused = true
+    });
+ 
+    slide.addEventListener("mouseout", function() {
+        paused = false
+    });
+    })
+ 
+     const slide = function () {
+      if (!paused) {
+       _sliderInitState(_slides, _dots);
+       _activateSlide(_slides, _slideIndex);
+       _slideIndex++;
+       _checkSlideIndexBoundary(_slideIndex, _slides);
+      }
+       // Change image every 5 seconds
+       setTimeout(slide, 5000);
+     };
+
   
     return {
       slide
