@@ -61,7 +61,10 @@
     <main>
         <section>
             <div class="container-projet">
-                <img class="img-projet" src="./assets/greenpath/action-plan.webp" alt="">
+                <div class="img-magnifier-container">
+                    <img class="img-projet" id="zoom" src="./assets/greenpath/action-plan.webp" alt="">
+                </div>
+                
                 <article>
                     <p> Dans le cadre de mon année d'alternance en UX designer, j'ai travaillé avec Veolia. <br>
                         L'un des objectifs de ce projet était d'intégrer une nouvelle fonctionnalité
@@ -390,6 +393,9 @@
     </div>
 
     <script src="app.js"></script>
+    <script src="cursor.js"></script> 
+
+    <script>magnify("zoom", 3);</script>
 
     <footer>
         <a href="index.html"><img id="logo" src="./assets/LA.svg" alt=""></a>
