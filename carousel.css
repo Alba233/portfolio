@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .navigation .previous {
+    position: absolute;
+    top: 40%;
+    left: -510px;
+    font-size: 15px;
+    font-weight: 700px;
+    z-index: 5;
+  }
+  .navigation .next {
+    position: absolute;
+    top: 40%;
+    right: -510px;
+    font-size: 15px;
+    font-weight: 700px;
+    z-index: 5;
+  }
+  .navigation .btn-nav {
+    background: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  .navigation .btn-nav:hover {
+    background: white;
+  }
+  
+  .image-fade {
+    display: none;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* carousel container */
+  .container {
+    border: 1px solid red;
+    max-width: 50%;
+    position: relative;
+    margin: auto;
+  }
+  
+  .caption-text {
+    width: 50%;
+    color: #fff;
+    font-size: 12px;
+    padding: 15px 10px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: left;
+    border-radius: 5px;
+  }
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: transparent;
+    border-color: rgb(222, 222, 222);
+    border-width: 5 px;
+    border-style: solid;
+    border-radius: 50%;
+    display: inline-block;
+    transition: border-color 0.6s ease;
+  }
+  
+  .active {
+    border-color: green;
+  }
+  
+  /* Animation */
+  .fade {
+    -webkit-animation-name: fade-image;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade-image;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade-image {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-image {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* On smaller screens*/
+  @media only screen and (max-width: 300px) {
+    .caption-text {
+      font-size: 10px;
+    }
+  }
